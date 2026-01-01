@@ -78,3 +78,33 @@ switch (day) {
 
 let newAge = 18
 console.log((newAge >= 18 ? "You are eligible for Vote" : "You are not eligible"));
+
+let myName = "Stranger"
+let final = (myName == "Stranger" ? "Congratulations! You win" : "Sorry! NExt Time")
+
+console.log(final);
+
+if (2 === 3) {
+    console.log("Equals");
+}else if(2 !== 3){
+    console.log("Not Equals");
+}else{
+    console.log("don't Understand the Logic!");
+    
+}
+
+if (!(2 == 2 && 2 == 2)) {
+    console.log("Correct Operation");
+}else if(2 == 4 || 2 != 2){
+    console.log("Incorrect Operation");
+}else{
+    console.log("Invalid Input");
+    
+}
+
+let gh;
+let hg = "Missing"
+
+let result = gh ?? hg
+
+console.log(result);
